@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Imprima&family=Inknut+Antiqua:wght@300&family=Inter:wght@300&family=Istok+Web:wght@700&family=Jaldi&family=Jockey+One&family=Josefin+Sans:wght@300&family=Kanit&display=swap');
+
+@keyframes transition-left{
+   0%   {opacity: 0; transform: translateX(-80px)};
+   100% {opacity: 1; transform: translateX(0)};
+}
+
+@keyframes transition-right{
+    0%   {opacity: 0; width: 100vh;};
+    100% {opacity: 1; transform: translateX(0)};
+}
+
+.navbar{
+    height: 70px;
+    background-color: black;
+    justify-items: left;
+}
+
+.navbar a{
+    color: aliceblue;
+    text-decoration: none;
+    margin: 4px;
+}
+
+.btn{
+    margin: 10px;
+    width: 80px;
+    height: 10px;
+}
+
+.col-lg{
+    background-color: rgba(0, 0, 0, 0.60);
+    height: 170px;
+    padding-top: 15px;
+}
+
+.col-lg h1{
+    font-family: 'Istok Web';
+    font-size: 40px;
+    color: white;
+}
+
+.col-lg p{
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 20px;
+    margin-top: -15px;
+    color: white;
+}
+
+.col-lg-4{
+    background-color: rgba(38, 49, 146, 0.80);
+    background-size: cover;
+    width: 130vh;
+    height: 100vh;
+    animation: transition 6s;
+}
+
+.col-lg-4 h1{
+    font-family: 'Kanit';
+    font-size: 40px;
+    color: white;
+}
+
+.col-lg-4 p{
+    font-family: 'Inter';
+    font-size: 24px;
+    color: white;
+}
+
+.col-lg-6{
+    background-color: rgba(38, 49, 146, 0.80);
+    background-size: cover;
+    width: 130vh;
+    height: 100vh;
+    animation: transition-right 6s;
+}
+
+.col-lg-6 h1{
+    font-family: 'Kanit';
+    font-size: 40px;
+    color: white;
+    transition: 1s;
+}
+
+.col-lg-6 h1:hover{
+    font-size: 70px;
+    transition: 1s;
+}
+
+.col-lg-6 p{
+    font-family: 'Inter';
+    font-size: 24px;
+    color: white;
+    transition: 1s;
+}
+
+.col-lg-6 p:hover{
+    font-size: 26px;
+    transition: 1s;
+}
+
+.font-size h1{
+   font-family: 'istok web';
+   font-size: 64px;
+   color: white;
+}
+
+.font-size p{
+    font-family: 'inter';
+    font-size: 20px;
+    color: white;
+}
+
+.row{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer{
+    height: 70px;
+    background-color: black;
+    justify-content: right;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+footer p{
+    font-family: "inter";
+    font-size: 20px;
+}
+
+input{
+    text-align: center;
+    border-radius: 30px;
+    border: none;
+}
+
+button{
+    text-align: center;
+    border-radius: 30px;
+    border: none;
+}
+
+aside{
+    justify-content: center;
+}
+
+article{
+    margin: 6vh;
+    transition: 1s;
+}
+
+article:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+article h1{
+    margin-top: 30vh;
+    font-family: 'Jaldi';
+    font-size: 14px;
+}
+
+article p{
+    font-family: 'Jaldi';
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.text-change h1{
+   margin-top: 150px;
+   text-align: left;
+}
+
+.text-change p{
+    text-align: left;
+}
+
+.panel{
+    margin-left: 8vh;
+}
+
+.tile{
+    height: 12vh;
+    width: 60vh;
+    background-color: black;
+    margin-top: -40vh;
+    margin-left: 44vh;
+    padding-right: 9vh;
+    padding-top: 3vh;
+}
+
+.tile h1{
+    font-family: 'inknut antiqua';
+    font-size: 30px;
+}
+
+.box{
+    height: 22vh;
+    width: 60vh;
+    background-color: rgb(243, 243, 243);
+    margin-top: 2vh;
+    margin-left: 44vh;
+}
+
+.square{
+    width: 44vh;
+    height: 44vh;
+    border-radius: 30px;
+    background-color: rgb(221, 221, 221);
+}
+
+.square-img{
+    margin-top: 16px;
+    margin-right: 16px;
+    width: 40vh;
+    height: 40vh;
+    border-radius: 30px;
+    background-size: cover;
+    background-image: url('Img/sa.png'); 
+}
+
+.soc{
+    width: 4vh;
+    height: 4vh;
+    background-size: cover;
+    margin: 6px;
+}
+
+#map {
+    height: 40vh;
+    width: 40vh;
+}
+
+ul{
+    margin-top: 2vh;
+    margin-left: -3vh;
+    list-style: none;
+    display: flex;
+}
+
+.box p{
+    color:black;
+    font-family: 'imprima';
+    text-align: left;
+    padding-left: 2vh;
+}
+
+@media screen and (max-width: 700px){
+
+.panel{
+    margin-top: 35vh;
+    margin-left: -2px;
+}
+
+.square{
+    width: 200px;
+    height: 200px;
+}
+
+.square-img{
+    width: 180px;
+    height: 180px;
+    margin-top: 1.2vh;
+    margin-left: 1.4vh;
+}
+
+.tile{
+    height: 2vh;
+    width: 30vh;
+    background-color: black;
+    margin-top: -20vh;
+    margin-left: 26.2vh;
+    padding-right: 9vh;
+    padding-top: 3vh;
+}
+
+.tile h1{
+    font-size: 10px;
+    margin-top: -16px;
+}
+
+.box{
+    height: 12vh;
+    width: 30vh;
+    background-color: rgb(243, 243, 243);
+    margin-left: 26.2vh;
+}
+
+.box p{
+    font-size: 12px;
+}
+
+.col-lg-4{
+    width: 10vh;
+    height: 10vh;
+    display: none;
+}
+
+.col-lg-4 h1{
+    display: block;
+    color:blue;
+}
+
+.aside-query{
+  margin-left: -100px;
+}
+
+.aside-query-2{
+  margin-left: -500px;
+}
+
+.text-change{
+    margin-top: 250vh;
+}
+
+.query-footer{
+    margin-top: 160vh;
+}
+
+.h1-query h1{
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 4px;
+}
+
+.p-query p{
+    font-size: 2px;
+}
+
+#query h1{
+    text-align: left;
+    padding-left: 10vh;
+}
+
+#rounded{
+    width: 50vh;
+    height: 50vh;
+    margin-top: -35vh;
+}
+
+#rounded-2{
+    margin-left: -100vh;
+}
+
+iframe{
+   margin-top: 15px;
+   margin-left: 15px;
+}
+
+}
