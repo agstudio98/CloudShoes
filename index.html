@@ -1,73 +1,95 @@
-<html>
-
-    <head>
-        <title> Inicio </title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    </head>
-
-    <body>
-        
-        <nav class="navbar">
-           <ul>
-            <a href="index.html"> Inicio </a>
-            <a href="nosotros.html"> Nosotros </a>
-            <a href="contactos.html"> Contactos </a>
-            <a href="tienda.html"> Tienda </a>
-           </ul> 
-        </nav>
-
-        <div class="container-fluid">
-
-         <section class="row" style="justify-content: right; background-image: url('img/Section 1.png'); text-align: right;">
-            <aside class="col-lg-6">
-                <div style="padding-right: 70px; padding-top: 71vh;">
-                  <h1> CloudShoes </h1>
-                  <p> Tu ropa preferida, a tu alcance </p>
-                </div> 
-            </aside>
-         </section>
-
-         <section class="row" style="background-image: url('img/Carrousel.png'); text-align:center; padding-top: 78vh;" id="carrousel">
-                 <aside class="col-lg">
-                   <h1> Sucursales </h1>
-                   <p> Tu ropa preferida, a tu alcance </p>
-                   <ul style="justify-content: center; margin-right: 20px;"> 
-                    <li class="btn" id="check1" style="background-color: white; border-radius:0;"></li>
-                    <li class="btn" id="check2" style="background-color: white; border-radius:0;"></li>
-                    <li class="btn" id="check3" style="background-color: white; border-radius:0;"></li>
-                  </ul>
-                 </aside>
-         </section>
-
-         <section class="row" style="justify-content: left; background-image: url('img/Section\ 3.png')">
-            <aside class="col-lg-6" style="animation: transition-left 6s;">
-                <div class="font-size" style="text-align: center; padding-top: 50vh;">
-                    <h1> Calzados </h1>
-                    <p> Gran variedad de talles. </p>
-                </div>
-            </aside>
-         </section>
-
-         <section class="row" style="justify-content: left; background-image: url('img/Imagen-2\ 1.png')">
-            <aside class="col-lg-6" style="background-color:  rgba(125, 113, 3, 0.80); animation: transition-left 6s;">
-                <div class="font-size">
-                    <div class="font-size" style="text-align: center; padding-top: 50vh;">
-                        <h1> Ropa de Marca </h1>
-                        <p> Gran variedad de estilos. </p>
-                    </div>
-                </div>
-            </aside>
-         </section>
-
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CloudShoes - Inicio</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Navbar -->
+    <nav class="custom-navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="brand">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-top: -4px;"><path d="M17.5 19A3.5 3.5 0 0 0 21 15.5c0-2.79-2.54-4.5-5-4.5-.42 0-.83.07-1.22.2A5 5 0 0 0 5 13c0 2.2 1.8 4 4 4h8.5Z"/><path d="M2.5 17A4.5 4.5 0 0 1 7 12.5c.57 0 1.12.1 1.63.29A6.5 6.5 0 0 1 20 12.5"/></svg>
+                CloudShoes
+            </a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="active">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="contactos.html">Contactos</a></li>
+                <li><a href="tienda.html">Tienda</a></li>
+            </ul>
         </div>
+    </nav>
 
-        <footer>
-            <p> Ag Studio 2023 </p>
-        </footer>
+    <!-- Main Content Container -->
+    <div class="container-fluid p-0">
 
-    </body>
+        <!-- Hero Section -->
+        <section class="hero-section" style="background-image: url('img/Section 1.png');">
+            <div class="hero-overlay-dark"></div>
+            <div class="hero-content animate-fade-up">
+                <h1>CloudShoes</h1>
+                <p>Tu ropa preferida, a tu alcance</p>
+                <a href="tienda.html" class="btn-premium">Ver Tienda</a>
+            </div>
+        </section>
+
+        <!-- Branch Carousel Section -->
+        <section class="carousel-section" id="carrousel" style="background-image: url('img/Carrousel.png');">
+            <div class="carousel-overlay"></div>
+            <div class="carousel-content-box animate-fade-up">
+                <h1>Sucursales</h1>
+                <p>Tu ropa preferida, a tu alcance</p>
+                <ul class="carousel-indicators-custom"> 
+                    <li id="check1" title="Sucursal 1"></li>
+                    <li id="check2" class="active" title="Sucursal 2"></li>
+                    <li id="check3" title="Sucursal 3"></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Footwear Section -->
+        <section class="info-section" style="background-image: url('img/Section 3.png');">
+            <div class="info-overlay-color" style="background-color: rgba(10, 11, 16, 0.4);"></div>
+            <div class="info-content-card animate-slide-left" style="background-color: rgba(10, 11, 16, 0.7); border-right: 1px solid var(--border-glass);">
+                <h1>Calzados</h1>
+                <p>Gran variedad de talles y modelos para cada paso de tu día.</p>
+                <a href="tienda.html" class="btn-premium mt-4">Ver Calzados</a>
+            </div>
+        </section>
+
+        <!-- Brand Clothes Section -->
+        <section class="info-section" style="background-image: url('img/Imagen-2 1.png');">
+            <div class="info-overlay-color" style="background-color: rgba(125, 113, 3, 0.15);"></div>
+            <div class="info-content-card animate-slide-right" style="background-color: rgba(125, 113, 3, 0.8); border-left: 1px solid rgba(255,255,255,0.15); margin-left: auto;">
+                <h1>Ropa de Marca</h1>
+                <p>Gran variedad de estilos y exclusividad en indumentaria urbana.</p>
+                <a href="tienda.html" class="btn-premium mt-4">Ver Colección</a>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; Ag Studio 2023 - CloudShoes</p>
+    </footer>
+
+    <!-- Bootstrap Bundle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom Logic -->
+    <script src="navbar.js"></script>
     <script src="function.js"></script>
-
+</body>
 </html>

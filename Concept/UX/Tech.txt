@@ -1,0 +1,191 @@
+1) Concepto
+
+Nombre: CloudShoes
+Tematica: Sitio web, y cuenta de instagram, que muestre los productos, los locales, y frases para captar la atencion de un cliente.
+          Tambien, que tenga la posibilidad, de saber la hisotoria de la marca, contactarse con los dueños por algun inconveniente, y comprar articulos de indumentaria online.
+
+Rubro: Ropa - Indumentaria
+Medios: Instagram
+        Sitio Web
+Formato: Sitio Web Completo
+         Cuenta de Instagram
+
+Secciones: - Inicio (Landing page)
+           - Tienda
+           - Nosotros
+           - Contacto
+
+
+
+
+2) Apartado Tecnico
+
+Tecnologias: HTML,CSS,JS,BootStrap.
+Formato: - Responsive (Desktop - Smartphone)
+         - 1:1 - Cuadrado (Postear en inicio)
+Programas: - Visual Studio Code  -- Maquetacion FrontEnd - Programacion Backend Basico
+           - Figma               -- Esquema UX - Diseño UI
+           - CorelDraw           -- Branding (Logotipos) - Diseños de Post para Instagram (1:1)
+           - Adobe Photoshop     -- Retoques de imagenes varios - Fotomontajes para imagenes del sitio.
+Asistentes:
+           - Bito AI (VS Studio Code)
+           - Tutorial PDF de marcas.
+
+Dominio/Hosting:   - Github Pages.
+Funcionalidad: Carrousel(JS)
+               Formulario Basico (JS)
+
+
+
+
+3) Cronograma - Plazos de realizacion
+
+Plazo de entrega: 20 dias Habiles.
+
+Semana 1
+Dia 1:           Analisis Tecnico.
+Dia 1 a dia 3:   Maquetacion UX
+Dia 4 a dia 5:   Retoque de imagenes
+
+Semana 2
+Dia 8:           Definir Branding.
+Dia 9 a dia 12:  Diseño UI -- Busqueda y diseño de Contenido.
+
+Semana 3
+Dia 15 a dia 18: Maquetacion Frontend.
+Dia 19:          Programacion Backend -- Testing.
+
+Semana 4
+Dia 22 a dia 25: Diseño de post.
+Dia 26:          Muestra al cliente, subidas de post.
+
+Notacion: se puede agilizar los procesos de Maquetacion UX, Branding, y Diseño de Post.
+
+
+
+
+4) Funcionalidad -- Sitio Web
+
+Navegador: Esquina inferior izquierda; logotipo monocromatico blanco de la marca
+           Esquina superior derecha; secciones por palabras.
+           (En la version movil; visualizar las letras por alineacion central)
+
+Footer:    Barra negra: que diga los derechos reservados de la marca.
+
+a) Inicio:
+ + Seccion de bienvenida o presentacion, que muestre la imagen de la marca, fotografias de los locales, y una imagen de presentacion.
+  Estructura:
+  - Header Nav
+  - Seccion 1 (Imagen retocada con PNG, por photoshop, en la derecha, que se visualice un fondo transparente con el logo grande de la marca)
+  - Carrousel (Carrousel que muestra las imagenes de tres sucursales, con un titulo h1 y subtitulo p.)
+  - Seccion 2 (Imagen de stock simple, que explique que tenemos cualquier talle de zapatilla)
+  - Footer
+
+b) Tienda:
+ + Seccion de redireccion (a paginas de mercado libre), donde muestre ropas y zapatillas para vender.
+  Estructura:
+  - Header Nav
+  - Carrousel         (Carrousel que muestre, una bienvenida de la seccion, y que queremos tener en el catalogo
+  - Seccion 1 - Ropas (Titulo, Subtitulo, de bienvenida a la seccion, catalogo de 8 items de venta con ropa)
+  - Seccion 2 - Zapas (Titulo, Subtitulo, de bienvenida a la seccion, catalogo de 8 items de venta con zapatillas)
+  - Footer
+
+c) Nosotros:
+ + Seccion de reseña; historia de la marca, quienes son los dueños, donde nos situamos.  
+  Estructura:
+  - Header Nav
+  - Seccion 1 (Historia de la marca; frente derecho , imagen en blanco y negro; frente izquierdo)
+  - Seccion 2 - Encargados
+    - Panel 1 (Nombre del responsable; cargo del responsable, estudios, instagram, whatsapp, gmail)
+    - Panel 2 (Nombre del responsable; cargo del responsable, estudios, instagram, whatsapp, gmail)
+  - article 1 (Imagen blanca, que indique donde nos situamos, titulo centrado en la imagen y grande)
+  - Seccion 4 - Donde nos situamos?
+    - Panel 1 (Seccion que indique google maps, y al lado inferior una imagen chica del local con el nombre de la ubicacion y provincia)
+    - Panel 2 (Seccion que indique google maps, y al lado inferior una imagen chica del local con el nombre de la ubicacion y provincia)
+    - Panel 3 (Seccion que indique google maps, y al lado inferior una imagen chica del local con el nombre de la ubicacion y provincia)
+  - article 2 (Imagen blanca, que un eslogan, titulo centrado en la imagen y grande)
+  - Footer.
+   
+
+d) Contacto:
+ + Seccion de formulario.
+ Estructura:
+ - Header Nav
+ - Seccion 1 (Fotografia de call center, titulo y subtitulo)
+ - Seccion 2 - Formulario
+   - Input 1 (Nombre del cliente)
+   - Input 2 (Inconveniente)
+   - Boton (Enviar)
+ - Footer
+
+(Notacion: para no crear muchas clases css, asignar mediante la etiqueta "style", en el apartado html)
+
+
+
+
+5) Analisis Foda.
+
+Analisis interno:
+ Fortalezas: - Tecnologia adquirida.
+             - Dominio de forma gratuita.
+
+ Debilidades: - Falta de contacto.
+              - Falta de difusividad.
+
+
+Analisis externo:
+ Oportunidades: - Atraer las ventas, mediante el entretenimiento.
+                - Trabajo de manera online.
+
+ Amenazas:      - Competencia dificil.
+
+
+
+
+6) Analisis de cliente.
+
+Sexo: Mayormente, masculino.
+Raza: Indiferente.
+
+Publico objetivo: Gente con intereses a estilos aesthetic.
+                  Gente con intereses a ropas de skates.
+                  Gente con intereses a ropa informal o casual.
+
+Region/Distribucion: - Argentina.
+Idioma: Español.
+
+Edad: 16 años a 40 años.
+
+
+
+7) Tarifario Final.
+
+Pagina Web simple -  200USD ( 70.000 Pesos argentinos Aprox).
+Diseño de post/ig -   30USD ( 10.500 Pesos argentinos Aprox).
+Identidad corp    -   20USD (  7.000 Pesos argentinos Aprox).
+
+
+Por Seccion:            50 USD (17.500 Pesos argentinos Aprox)
+                      + 50 USD (17.500 Pesos argentinos Aprox)
+                      + 50 USD (17.500 Pesos argentinos Aprox)
+                      + 50 USD (17.500 Pesos argentinos Aprox)
+Dominio-Hosting:         0 USD
+Post 1:1 (x9)         + 30 USD (10.500 Pesos argentinos Aprox)
+Identidad corp        + 20 USD ( 7.000 Pesos argentinos Aprox)
+
+Total:                 250 USD (87.500 Pesos argentinos Aprox).
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
